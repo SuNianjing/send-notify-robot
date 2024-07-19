@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+*.log
+.vscode
+.idea
+.awcache
+.rpt2_cache
+dist
+docs
+test
+compiled

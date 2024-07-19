@@ -1,0 +1,47 @@
+{
+    "name": "send-notify-robot-1",
+    "version": "1.0.0",
+    "description": "一个用于对接机器人通知的中转站",
+    "type": "module",
+    "main": "dist/index.cjs",
+    "module": "dist/index.esm.js",
+    "browser": "dist/index.min.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c rollup.config.js -w"
+    },
+    "keywords": [
+        "钉钉",
+        "钉钉机器人",
+        "钉钉机器人通知",
+        "消息推送"
+    ],
+    "author": "苏年璟 <3113149292@qq.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sunianjing/send-notify-robot.git"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "crypto-js": "^4.2.0"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^26.0.1",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/crypto-js": "^4.2.2",
+        "@types/node": "^20.14.10",
+        "rollup": "^4.18.1",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-polyfill-node": "^0.13.0",
+        "rollup-plugin-terser": "^7.0.2",
+        "ts-node": "^10.9.2",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.3"
+    }
+}

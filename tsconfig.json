@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "strict": true,
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "declarationDir": "dist/types", // 声明文件的输出目录
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "moduleResolution": "node",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ] // 确保在 paths 中包含正确的路径配置
+        }
+    },
+    "include": [
+        "src/**/*",
+        "rollup.config.js"
+    ],
+    "ts-node": {
+        "esm": true // 确保 ts-node 以 ESM 方式运行
+    }
+}
