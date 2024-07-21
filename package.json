@@ -1,6 +1,6 @@
 {
-    "name": "send-notify-robot-1",
-    "version": "1.0.0",
+    "name": "send-notify-robot",
+    "version": "1.0.3",
     "description": "一个用于对接机器人通知的中转站",
     "type": "module",
     "main": "dist/index.cjs",
